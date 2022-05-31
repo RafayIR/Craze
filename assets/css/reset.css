@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container,
+.product-container,
+.popular-product-top {
+  width: 1060px;
+  margin: 0 auto;
+  padding-inline: 5px;
+  position: relative;
+}
+
+button:hover {
+  cursor: pointer;
+}

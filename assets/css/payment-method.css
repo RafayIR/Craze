@@ -1,0 +1,316 @@
+.left-side .personal-data,
+.shipping-method,
+.form-payment-method {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+
+.personal-data .form-heading,
+.shipping-method .form-heading,
+.form-payment-method .form-heading {
+  margin: 20px 0;
+  margin-left: 6px;
+}
+
+.personal-data p,
+.personal-data span,
+.shipping-method p,
+.shipping-method span {
+  margin-left: 32px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.personal-data span,
+.shipping-method span {
+  font-weight: 500;
+}
+
+.shipping-method {
+  display: flex;
+  justify-content: space-between;
+}
+
+.embeded-map {
+  margin-top: 19px;
+  margin-right: 17px;
+}
+
+.embeded-map img {
+  width: 100%;
+}
+
+.payment-selection-option {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.form-payment-method .flex-apart {
+  justify-content: space-between;
+  display: flex;
+}
+
+.payment-selection-option label {
+  display: flex;
+  align-items: center;
+}
+
+.payment-selection-option .radio-btn label {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.payment-selection-option label {
+  color: #adadad;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.payment-selection-option label img {
+  margin: 0px 15px;
+}
+
+.radio-btn {
+  display: flex;
+  align-items: center;
+}
+
+.payment-selection-option button {
+  width: 17%;
+  height: 38px;
+  margin: 0px 10px;
+  background-color: #edf3fd;
+  color: #3581ea;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.payment-selection-option span {
+  color: #3581ea;
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.payment-selection-option input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.payment-selection-option input[type="radio"] {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  padding: 1px;
+  border: 2px solid #adadad;
+  background-clip: content-box;
+}
+
+.payment-selection-option input[type="radio"]:checked {
+  background-color: #3581ea;
+  border: 2px solid #adadad;
+}
+
+.shipping-details-btn .blue-btn {
+  background-color: #3581ea;
+  color: #fff;
+}
+
+/*****************PROCESSING-PAYMENT*************/
+
+.left-side-opacity {
+  opacity: 0.3;
+  width: 55%;
+  margin-right: 10px;
+}
+
+.shipping-details-btn .blue-btn {
+  background-color: #3581ea;
+  color: #fff;
+}
+
+.left-side-opacity .personal-data,
+.shipping-method,
+.form-payment-method {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+
+/**************************ORDER-COMPLETED*********************/
+.order-heading {
+  margin: 25px 0px;
+}
+
+.order-complete p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #858585;
+  margin-bottom: 32px;
+  width: 90%;
+}
+
+.order-complete span {
+  color: #3581ea;
+}
+
+.order-complete .embeded-map {
+  margin-bottom: 32px;
+}
+
+span.bold {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #474747;
+}
+
+button.invoice-btn {
+  height: 40px;
+  padding: 8px 16px;
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-blue {
+  background-color: #edf3fd;
+  color: #1358b9;
+}
+
+.btn-grey {
+  background-color: #f5f5f5;
+  color: #858585;
+}
+
+/*********************ORDER-DETAILS-TOP********************/
+.order-details-top {
+  margin: 0px 10px;
+}
+
+/*********************ORDER-DETAILS-BOTTOM********************/
+
+.order-detail-bottom {
+  padding: 14px;
+}
+
+.order-detail-bottom .promo-code a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1358b9;
+  padding: 3px;
+  border-radius: 4px;
+  background-color: #edf3fd;
+}
+
+.order-detail-bottom .order-id span {
+  color: #555555;
+}
+
+.order-detail-bottom .payment label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.order-detail-bottom .payment label span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .payment-selection-option button {
+    width: 23%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .left-side-opacity {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .personal-data p,
+  .personal-data span,
+  .shipping-method p,
+  .shipping-method span {
+    margin-left: 20px;
+    font-size: 13px;
+  }
+
+  .embeded-map {
+    margin-right: 8px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 568px) {
+  .order-heading h1 {
+    font-size: 38px;
+  }
+
+  .shipping-method {
+    flex-wrap: wrap;
+  }
+  .payment-selection-option {
+    margin-left: 17px;
+  }
+
+  .personal-data p,
+  .personal-data span,
+  .shipping-method p,
+  .shipping-method span {
+    margin-left: 22px;
+  }
+  .embeded-map {
+    margin-left: 22px;
+  }
+  .payment-selection-option button {
+    width: 21%;
+  }
+
+  .order-complete .embeded-map {
+    margin: 24px 0px;
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 458px) {
+  .payment-selection-option button {
+    display: none;
+  }
+  .personal-data .form-heading,
+  .shipping-method .form-heading,
+  .form-payment-method .form-heading {
+    margin: 30px 6px;
+  }
+
+  button.invoice-btn {
+    height: 34px;
+    padding: 9px 13px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 425px) {
+  .payment-selection-option {
+    margin-left: 15px;
+  }
+  .payment-selection-option label img {
+    margin: 0 9px;
+  }
+}

@@ -1,0 +1,71 @@
+@media screen and (min-width: 320px) and (max-width: 1224px) {
+  .container {
+    width: 92%;
+  }
+
+  .product-container {
+    width: 75%;
+  }
+  .top-nav {
+    width: 100%;
+  }
+  .owl-carousel .next-slide {
+    right: -38px;
+    background-size: 33px;
+  }
+  .owl-carousel .prev-slide {
+    left: -33px;
+    background-size: 33px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1224px) {
+  .heading h1 {
+    font-size: 32px;
+  }
+  .news-letter-content p {
+    font-size: 14px;
+  }
+
+  .original-bibi-img {
+    width: 50%;
+  }
+  .original-bibi-para {
+    width: 47%;
+    margin-top: 34px;
+  }
+  .original-bibi-para h1 {
+    font-size: 43px;
+    line-height: 45px;
+  }
+
+  .original-bibi-para p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .original-bibi-img {
+    width: 52%;
+  }
+
+  .original-bibi-img img {
+    width: 100%;
+  }
+
+  .original-bibi-para h1 {
+    padding-top: 0px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .original-bibi-para {
+    margin-top: 7px;
+  }
+  .original-bibi-para p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 8px;
+  }
+}

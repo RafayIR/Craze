@@ -1,0 +1,411 @@
+.footer-bg-blue span#circle {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  background-color: #ff8154;
+  top: -27px;
+  border-radius: 50%;
+  right: 150px;
+}
+
+.footer-bg-blue span#circle-green {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #81d959;
+  bottom: 10px;
+  border-radius: 50%;
+  right: 98px;
+}
+
+.footer-bg-blue span#circle-yellow {
+  position: absolute;
+  width: 131px;
+  height: 131px;
+  background-color: #ffe923;
+  bottom: 15px;
+  border-radius: 50%;
+  left: -30px;
+}
+
+.footer-bg {
+  background-color: #edf3fd;
+  padding: 25px 0px;
+  margin-top: 50px;
+}
+
+.faq-row {
+  width: 100%;
+  display: flex;
+}
+
+.faq-col {
+  width: 25%;
+}
+
+.faq-col:nth-last-child(1) {
+  padding-left: 54px;
+}
+
+.faq-col:nth-last-child(4) h2 {
+  margin-top: 34px;
+}
+
+.faq-content {
+  margin-top: 12px;
+}
+
+.faq-content span {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.faq-content h2 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.faq-content label {
+  display: block;
+  font-size: 14px;
+  padding-right: 50px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.footer-bg-blue {
+  background-color: #3581ea;
+  padding: 50px 0px;
+  position: relative;
+}
+
+.footer-bottom-row {
+  display: flex;
+}
+
+.footer-bottom-col {
+  width: 25%;
+}
+
+.footer-bottom-col:nth-last-child(1) {
+  text-align: end;
+}
+
+.footer-bottom-col h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+li.footer-link {
+  padding: 0px;
+  margin-top: 10px;
+}
+
+li.footer-link:hover {
+  padding: 0px;
+}
+
+.footer-tag a:hover {
+  padding: 0px;
+}
+
+a.footer-tag {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+#address {
+  margin-top: 40px;
+}
+
+#mail-address {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.social-icons {
+  font-size: 40px;
+}
+
+.social-icons img {
+  width: 8%;
+}
+
+.secure-page {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 35px;
+  border-radius: 20px;
+  background-color: rgba(19, 88, 185, 0.6);
+}
+
+.secure-page span {
+  margin-right: 6px;
+}
+
+.secure-page em {
+  font-style: normal;
+  margin: 0px 6px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #46ca63;
+}
+
+.secure-page p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+ul.payment-method li {
+  display: inline;
+  padding-right: 5px;
+}
+
+#payemnt-method-style {
+  margin-top: 40px;
+  margin-bottom: 6px;
+}
+
+ul.payment-method li img {
+  width: 17%;
+  margin-bottom: 7px;
+}
+
+/***************RESOPONSIVE********************/
+
+@media screen and (min-width: 1024px) and (max-width: 1340px) {
+  .footer-bg-blue span#circle-yellow {
+    width: 87px;
+    height: 81px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .footer-bg-blue span#circle-yellow {
+    position: absolute;
+    width: 70px;
+    height: 68px;
+    left: -25px;
+  }
+  .footer-bg {
+    padding: 25px 0px;
+    margin-top: 45px;
+  }
+
+  .faq-content {
+    margin-top: 12px;
+  }
+
+  .footer-bg-blue span#circle {
+    right: 59px;
+  }
+
+  .faq-col {
+    width: 25%;
+  }
+
+  .faq-col:nth-last-child(1) {
+    padding-left: 0;
+  }
+  .footer-bottom-col {
+    width: 25%;
+  }
+  .faq-content h2 {
+    margin: 11px 0px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .faq-content label {
+    padding-right: 20px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .footer-bottom-col h2 {
+    font-size: 16px;
+    line-height: 29px;
+  }
+  a.footer-tag {
+    font-size: 13px;
+  }
+
+  .social-icons {
+    text-align: end;
+    font-size: 40px;
+  }
+
+  .social-icons img {
+    width: 12%;
+  }
+
+  .secure-page p {
+    font-size: 11px;
+    margin-right: 9px;
+    line-height: 0px;
+  }
+
+  .secure-page {
+    height: 41px;
+    margin-top: 27px;
+    margin-left: 0px;
+  }
+
+  .secure-page em {
+    padding: 0px 4px;
+    margin: 0px 0px;
+    font-size: 11px;
+    line-height: 0px;
+  }
+
+  .secure-page span {
+    margin: 0px 0px;
+  }
+
+  .payment-method img {
+    width: 22%;
+  }
+
+  .payment-method {
+    margin-left: 10px;
+  }
+  li.footer-link {
+    margin-top: 7px;
+  }
+}
+
+/*****************RESPONSIVE******************/
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  .faq-row {
+    flex-wrap: wrap;
+  }
+  .faq-col {
+    width: 50%;
+  }
+
+  .faq-col:nth-last-child(1) {
+    padding-left: 0px;
+  }
+
+  .footer-bottom-row {
+    flex-wrap: wrap;
+  }
+  .footer-bottom-col {
+    width: 50%;
+  }
+  .footer-bottom-col:nth-last-child(1) {
+    text-align: left;
+  }
+
+  .footer-bg-blue span#circle-yellow {
+    width: 70px;
+    height: 70px;
+    bottom: 9px;
+    left: -18px;
+  }
+  .footer-bg-blue span#circle {
+    right: 40px;
+  }
+
+  .secure-page {
+    margin-left: 0px;
+    margin-right: 45px;
+    padding-left: 18px;
+    justify-content: left;
+  }
+}
+
+@media screen and (min-width: 268px) and (max-width: 567px) {
+  .footer-bg {
+    padding: 20px 0px;
+    margin-top: 32px;
+  }
+
+  .faq-row {
+    flex-wrap: wrap;
+  }
+  .faq-col {
+    width: 100%;
+  }
+  .faq-col:nth-last-child(1) {
+    padding-left: 0px;
+  }
+  .footer-bottom-row {
+    flex-wrap: wrap;
+  }
+  .footer-bottom-col {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .footer-bottom-col:nth-last-child(1) {
+    text-align: left;
+  }
+
+  .footer-bg-blue {
+    padding: 20px 0px;
+  }
+  .footer-bg-blue span#circle-yellow {
+    width: 57px;
+    height: 57px;
+    bottom: 9px;
+    left: -18px;
+  }
+  .social-icons {
+    text-align: left;
+  }
+
+  #payemnt-method-style {
+    margin-top: 32px;
+  }
+
+  .payment-method {
+    margin-left: 19px;
+  }
+  .payment-method img {
+    width: 15%;
+  }
+
+  .secure-page {
+    width: 236px;
+    margin-left: 0pc;
+  }
+  .secure-page span {
+    margin-left: 23px;
+  }
+  .footer-bg-blue span#circle {
+    right: 25px;
+  }
+  .footer-bg-blue span#circle-green {
+    right: 35px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 567px) {
+  .payment-method img {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 268px) and (max-width: 425px) {
+  .payment-method img {
+    width: 17%;
+  }
+
+  .footer-bg-blue span#circle-yellow {
+    width: 58px;
+    height: 57px;
+  }
+}

@@ -1,0 +1,244 @@
+/***************************FORM-CSS*********************/
+
+.form-left {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.form-heading {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding-inline: 15px;
+}
+
+.form-heading h2 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.form-heading span {
+  width: 200px;
+  height: 40px;
+  color: #3581ea;
+  line-height: 36px;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 16px;
+  background-color: #edf3fd;
+  border-radius: 8px;
+}
+
+/****************************CHECK-BOX*****************************/
+
+.form-left .control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.form-left .control_indicator {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #858585;
+  border-radius: 3px;
+}
+
+.form-left ul.more-filters-check-box {
+  width: 75%;
+}
+
+.form-left .more-filters-check-box li {
+  margin-top: 0px;
+}
+
+.form-left .control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+  border: 2px solid #3581ea;
+}
+
+.form-left .control input:disabled ~ .control_indicator {
+  background: #3581ea;
+  border: 1px solid #3581ea;
+}
+
+.form-left .control-checkbox .control_indicator:after {
+  left: 6px;
+  top: 2px;
+  width: 3px;
+  height: 8px;
+  border: 1px solid #3581ea;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.form-left .form-ul {
+  padding-left: 35px;
+  margin-top: 35px;
+}
+/********************FORM-LABEL*************************/
+
+.form-row-top,
+.form-row-bottom {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 25px;
+}
+
+.form-row-top {
+  border-bottom: 1px solid #ccc;
+}
+
+label.label {
+  display: block;
+}
+
+.form-col-6 {
+  width: 50%;
+}
+
+.form-col-12 {
+  width: 98%;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #555555;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.form-col-6,
+.form-col-12 {
+  margin-bottom: 25px;
+}
+
+.form-col-6 input.form-control {
+  width: 96%;
+  height: 48px;
+  border: 1px solid #d6d6d6;
+  border-radius: 7px;
+  padding: 12px 16px;
+}
+
+input:focus-visible {
+  outline: 1px solid rgb(133, 131, 131);
+}
+
+.form-col-12 input.form-control {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #d6d6d6;
+  border-radius: 7px;
+  padding: 12px 16px;
+}
+
+.form-col-6 button {
+  width: 96%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #3581ea;
+  color: #ffffff;
+}
+
+.method h2 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #adadad;
+}
+
+.method button {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  width: 100%;
+  height: 69px;
+  padding-left: 32px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: left;
+  color: #adadad;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 868px) {
+  .form-col-6 {
+    width: 100%;
+  }
+  .form-left .form-ul {
+    padding-left: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .form-heading {
+    padding-inline: 15px;
+  }
+
+  .form-heading span {
+    font-size: 12px;
+    width: 176px;
+    height: 38px;
+  }
+
+  .form-left ul.more-filters-check-box {
+    width: 80%;
+  }
+
+  .form-row-top,
+  .form-row-bottom {
+    padding: 25px 13px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 474px) {
+  .form-heading {
+    flex-wrap: wrap;
+  }
+
+  .form-heading h2 {
+    font-size: 27px;
+    line-height: 25px;
+  }
+
+  .form-heading span {
+    width: 170px;
+    height: 38px;
+    font-size: 12px;
+    padding-left: 8px;
+    margin-top: 20px;
+  }
+
+  .form-row-top,
+  .form-row-bottom {
+    padding: 25px 10px;
+  }
+
+  .form-col-6 {
+    width: 100%;
+  }
+  .form-left .form-ul {
+    padding-left: 18px;
+  }
+
+  .method button {
+    height: 55px;
+    padding-left: 13px;
+  }
+}

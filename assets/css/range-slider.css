@@ -1,0 +1,68 @@
+.wrunner__handle_theme_default.wrunner__handle_direction_horizontal {
+  margin-top: -6px;
+  margin-left: -6px;
+}
+
+.wrunner__handle_theme_default.wrunner__handle {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: #3581ea;
+  transition-duration: 0.2s;
+  transition-property: transform, background-color, border-radius;
+  cursor: pointer;
+  z-index: 1;
+}
+.wrunner__handle_theme_default.wrunner__handle:hover {
+  transform: scale(1.1);
+  border-radius: 50%;
+  background-color: #3581ea;
+}
+.wrunner__handle_theme_default.wrunner__handle:active {
+  transform: scale(0.9);
+  border-radius: 50%;
+  background-color: #3581ea;
+}
+
+.wrunner__outer_theme_default.wrunner__outer_direction_horizontal {
+  height: 64px;
+  width: 100%;
+}
+
+.wrunner__outer_theme_default.wrunner__outer {
+  position: relative;
+}
+
+.wrunner__path_theme_default.wrunner__path_direction_horizontal {
+  height: 3px;
+  width: 100%;
+  top: 8px;
+}
+
+.wrunner__path_theme_default.wrunner__path {
+  position: absolute;
+  background-color: rgba(205, 205, 205, 0.75);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wrunner__pathPassed_theme_default.wrunner__pathPassed_direction_horizontal {
+  height: 100%;
+}
+
+.wrunner__pathPassed_theme_default.wrunner__pathPassed {
+  position: absolute;
+  background-color: #3581ea;
+  border-radius: 4px;
+}
+
+.my-jquery-slider,
+.my-js-slider {
+  position: relative;
+  max-width: 100%;
+  margin: 0px auto;
+}
+.wrunner__valueNote.wrunner__valueNote_display_visible.wrunner__valueNote_theme_default.wrunner__valueNote_direction_horizontal {
+  display: none;
+}

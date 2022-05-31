@@ -1,0 +1,68 @@
+.breadcrums-menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  margin: 34px 0px;
+  padding: 0px 29px;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+ul.breadcrumb li + li:before {
+  padding: 3px;
+  color: #4e4e4e;
+  content: "/";
+}
+ul.breadcrumb li a {
+  color: #858585;
+  text-decoration: none;
+}
+
+ul.breadcrumb li {
+  color: #3581ea;
+}
+
+.social-icons span a svg {
+  fill: #818181;
+}
+
+.breadcrums-menu .social-icons {
+  margin: 19px 0px;
+  padding: 0px 29px;
+  width: 61%;
+  text-align: end;
+}
+
+@media screen and (min-width: 300px) and (max-width: 775px) {
+  ul.breadcrumb {
+    list-style: none;
+    margin: 24px 0px;
+    padding: 0px 0px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 475px) {
+  .breadcrums-menu {
+    flex-wrap: wrap;
+  }
+
+  .breadcrums-menu .social-icons {
+    width: 100%;
+    margin: 0px 0;
+    padding: 0px 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumb-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

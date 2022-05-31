@@ -1,0 +1,276 @@
+.main-heading {
+  margin: 30px 9px;
+}
+
+.main-heading h1 {
+  font-size: 48px;
+  line-height: 58px;
+  color: #0c356f;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+.form {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.left-side {
+  width: 55%;
+  margin-right: 10px;
+}
+
+.form-right {
+  width: 37%;
+}
+
+/******************Shipping-details*************/
+
+.shipping-details {
+  border: 1px solid #f5f5f5;
+  margin-left: 10px;
+  box-shadow: 12px 20px 24px rgba(69, 79, 89, 0.08);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.shipping-details-top {
+  padding: 25px 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.free-shipping {
+  display: flex;
+}
+
+.free-shipping a {
+  width: 50%;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.free-shipping span {
+  width: 50%;
+  text-align: end;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+progress#file {
+  width: 100%;
+  height: 8px;
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #6ba2ef;
+  border-radius: 5px;
+}
+
+.order-details h2 {
+  margin: 25px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.order-details ul li {
+  display: flex;
+  margin-top: 10px;
+  align-items: start;
+}
+
+.order-details {
+  margin-bottom: 80px;
+}
+.product-picture {
+  width: 21%;
+  margin-right: 14px;
+}
+
+.order-description {
+  width: 54%;
+  margin: 0px 10px;
+}
+
+.order-description h4 {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.order-description span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #858585;
+}
+
+.order-price {
+  width: 25%;
+}
+.order-details .order-price span {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #479622;
+}
+
+/*********************Payment-details******************/
+
+.shipping-detail-bottom {
+  padding: 25px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.shipping-cost,
+.promo-code,
+.shipping,
+.total {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.shipping-cost h5,
+.promo-code h5,
+.shipping h5 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.total h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.shipping-cost span,
+.shipping span {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.shipping span {
+  color: #3581ea;
+}
+
+.total span {
+  color: #37741a;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.shipping-details-btn {
+  text-align: center;
+}
+
+button.disable-btn {
+  width: 80%;
+  height: 40px;
+  margin: 25px 0px;
+  border: none;
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #adadad;
+  background-color: #f5f5f5;
+}
+
+@media screen and (min-width: 768px) and (max-width: 968px) {
+  .form-right {
+    width: 42%;
+  }
+
+  .order-details ul li {
+    align-items: start;
+  }
+
+  .order-description {
+    overflow: hidden;
+  }
+  .order-description h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .shipping-details-top {
+    padding: 25px 8px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  .form {
+    flex-wrap: wrap;
+  }
+
+  .form-right {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .left-side {
+    width: 100%;
+  }
+
+  .order-price {
+    text-align: center;
+  }
+  .product-picture {
+    width: 26%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 568px) {
+  .shipping-details-top {
+    padding: 25px 10px;
+  }
+
+  .main-heading {
+    margin: 25px 0px;
+  }
+
+  .form {
+    flex-wrap: wrap;
+  }
+
+  .form-right {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .left-side {
+    width: 100%;
+  }
+
+  .order-price {
+    text-align: center;
+  }
+
+  .shipping-detail-bottom {
+    padding: 25px 12px;
+  }
+  .product-picture {
+    width: 26%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 474px) {
+  .order-description h4 {
+    height: 49px;
+    overflow: hidden;
+  }
+}

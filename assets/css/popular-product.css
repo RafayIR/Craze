@@ -1,0 +1,152 @@
+.popular-product {
+  margin-top: 100px;
+}
+
+.popular-product-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-product-top h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.popular-product-top a {
+  text-decoration: underline;
+  color: rgba(53, 129, 234, 0.8);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*********POPULAR-PRODUCT-CARD*************/
+
+.popular-product-row {
+  display: flex;
+}
+
+.popular-product-card {
+  margin-top: 45px;
+}
+
+.popular-product-img {
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0 20px;
+  position: relative;
+  margin-left: 6px;
+}
+
+.popular-product-img img {
+  width: 100%;
+  margin: 22px 0px;
+}
+
+.popular-product-content {
+  margin-top: 25px;
+  margin-left: 6px;
+}
+
+.popular-product-col {
+  width: 98%;
+}
+.popular-product-content title {
+  font-size: 16px;
+  display: block;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.popular-product-content span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+span.badge {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 4px 21px;
+}
+
+#yellow {
+  background-color: rgba(255, 233, 35, 0.9);
+  color: #000;
+}
+
+#red {
+  background-color: #ff8154;
+  color: #fff;
+}
+
+#green {
+  background-color: #68d237;
+  color: #fff;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .owl-carousel .owl-prev .nav-btn .prev-slide {
+    left: -32px;
+    background-size: 33px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  .popular-product-col {
+    width: 100%;
+  }
+  .popular-product {
+    margin-top: 44px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .product-container {
+    text-align: -webkit-center;
+  }
+  .popular-product-img {
+    max-width: 90%;
+    text-align: -webkit-center;
+  }
+}
+@media screen and (min-width: 268px) and (max-width: 567px) {
+  .product-container {
+    text-align: -webkit-center;
+  }
+
+  .popular-product {
+    margin-top: 33px;
+  }
+
+  .popular-product-img {
+    max-width: 80%;
+    text-align: -webkit-center;
+  }
+  .owl-carousel .owl-item img {
+    width: 73%;
+  }
+
+  .popular-product-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 14px;
+  }
+  .popular-product-top h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+  }
+
+  .popular-product-top a {
+    font-size: 14px;
+  }
+}
